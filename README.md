@@ -22,12 +22,12 @@ Log in using these credentials to view a table of invoices. You can sort the inv
 
 ## Technologies Used
 
-- Backend: NestJS, TypeScript, Prisma, MySQL
+- Backend: NestJS, TypeScript, Prisma, MySQL, JWT
 - Frontend: React, TypeScript, Redux, Material UI, Moment.js
 
 ## Features
 
-- User authentication with pre-seeded accounts.
+- User authentication with JWT (JSON Web Tokens) and pre-seeded accounts.
 - View and sort invoices in a table format.
 - Click on an invoice to display detailed information.
 - Backend API built with Node.js, NestJS, and TypeScript.
