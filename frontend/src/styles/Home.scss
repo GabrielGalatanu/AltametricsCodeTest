@@ -1,0 +1,12 @@
+@import "./main";
+
+.Home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    @include comicNeue-bold;
+    color: white;
+  }
+}

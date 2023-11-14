@@ -1,0 +1,35 @@
+@import "./main.scss";
+
+.invoice-table__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 800px;
+  height: 600px;
+
+  th,
+  td {
+    @include comicNeue-bold;
+    color: white !important;
+  }
+
+  .MuiTableContainer-root {
+    border: 2px solid white;
+    border-radius: 10px !important;
+  }
+
+  tbody tr {
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+    }
+  }
+
+  .head-title {
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
