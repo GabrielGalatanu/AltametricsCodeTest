@@ -6,10 +6,10 @@ This application is a full-stack solution using React, NestJS, and TypeScript, d
 
 ## Installation Instructions
 
-1. Navigate to both the frontend and backend folders and run npm install to install all dependencies.
+1. Navigate to both the frontend and backend folders and "run npm install" to install all dependencies.
 2. Create a MySQL database and update the .env file in the backend folder with your database URL in place of the default (mysql://root:password@127.0.0.1:3306/altametrics).
-3. In the backend folder, run npm run migrate and npm run seed to migrate and seed the database.
-4. Start the backend server with npm run start and the frontend application with npm run dev.
+3. In the backend folder, run "npm run migrate" and "npm run seed" to migrate and seed the database.
+4. Start the backend server with "npm run start" and the frontend application with "npm run dev".
 
 ## Usage
 
